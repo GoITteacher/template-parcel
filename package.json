@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "parcel src/*.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.7.0"
-  }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
